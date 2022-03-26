@@ -1,5 +1,4 @@
-const client = r
-require('./connection.js')
+const client = rrequire('./connection.js')
 const express = require('express');
 const app = express();
 
