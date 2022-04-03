@@ -1,5 +1,4 @@
-const client = r
-require('./connection.js')
+const client = require('./connection.js')
 const express = require('express');
 const app = express();
 
@@ -15,6 +14,8 @@ client.connect();
 
 app.get('/soil', (req, res)=>{
     client.query(`Select * from soil`, (err, result)=>{
+
+
         if(!err){
             res.send(result.rows);
         }
