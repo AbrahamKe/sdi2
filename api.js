@@ -2,7 +2,7 @@
 const client = require('./connection.js')
 =======
 const client = rrequire('./connection.js')
->>>>>>> aa59f6db1d494c0e6dc3207dd76396eadd2a82f3
+>>>>>>git > aa59f6db1d494c0e6dc3207dd76396eadd2a82f3
 const express = require('express');
 const app = express();
 
