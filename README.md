@@ -1,3 +1,2 @@
 # sdi2
-REST API
-Data integration
+Spatial Data Infrastructure and Data Interoperability Using Web Service
